@@ -1,4 +1,5 @@
 import styled from "styled-components"; // Importando o Styled Components
+import { Link } from "react-router-dom"
 
 export const Container = styled.header` // Exportando o Container
   grid-area: header;
@@ -17,7 +18,7 @@ export const Container = styled.header` // Exportando o Container
   padding: 0 80px;
 `
 
-export const Profile = styled.div` // Exportando o Profile
+export const Profile = styled(Link)` // Exportando o Profile
   display: flex;
   align-items: center;
 

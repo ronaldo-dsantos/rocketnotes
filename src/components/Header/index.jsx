@@ -5,7 +5,7 @@ import { Container, Profile, Logout } from "./styles"; // Importando o arquivo c
 export function Header(){ // Exportando o Header
   return(
     <Container>
-      <Profile>
+      <Profile to="/profile">
         <img 
           src="https://github.com/ronaldo-dsantos.png"
           alt="Foto do usuário"
