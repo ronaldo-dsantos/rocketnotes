@@ -6,13 +6,13 @@ export const Container = styled.div`
 
   display: grid; // Display grid para deixarmos o Header fixo na tela
   grid-template-rows: 105px auto; // Header 105px e o restante da página ajuste automático
-  grid-template-areas: 
+  grid-template-areas: // Nomeando as áreas que nosso grid vai ter
   "header"
   "content";
   
-  > main {
-    grid-area: "Content";
-    overflow-y: scroll;
+  > main { // O main foi criado para que ocupe todo o restante da tela e o content para limitar apenas o conteúdo e permitir a rolagem da tela
+    grid-area: "Content"; // Definindo a area do nosso grid que a main vai ficar
+    overflow-y: auto; // Quando o conteúdo não caber mais na tela, aparecer uma barra de rolagem
     padding: 64px 0;
   }
 `
@@ -29,7 +29,7 @@ export const Links = styled.ul`
   }
 `
 
-export const Content = styled.div`
+export const Content = styled.div` // Content criado para limitação do conteúdo dentro do main
   max-width: 550px;
   margin: 0 auto;
 
@@ -37,7 +37,7 @@ export const Content = styled.div`
   flex-direction: column;
 
   > button:first-child {
-    align-self: end; // Alinhamento no próprio botão trazendo ele para o final
+    align-self: end; // Alinhamento no próprio botão trazendo ele para o canto
   }
 
   > h1 {

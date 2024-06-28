@@ -6,9 +6,9 @@ export const Container = styled.div`
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 250px auto;
-  grid-template-rows: 105px 128px auto 64px;
-  grid-template-areas: 
+  grid-template-columns: 250px auto; // grid duas colunas
+  grid-template-rows: 105px 128px auto 64px; // grid 4 linhas
+  grid-template-areas: // distribuição do conteúdo pelo grid
   "brand header"
   "menu search"
   "menu content"
@@ -18,7 +18,7 @@ export const Container = styled.div`
 ` 
 
 export const Brand = styled.div`
-  grid-area: brand;
+  grid-area: brand; // definindo a area ocupada na distribuição do grid
   
   display: flex;
   justify-content: center;
@@ -37,7 +37,7 @@ export const Brand = styled.div`
 ` 
 
 export const Menu = styled.ul`
-  grid-area: menu;
+  grid-area: menu; // definindo a area ocupada na distribuição do grid
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
   padding-top: 64px;
@@ -46,24 +46,23 @@ export const Menu = styled.ul`
   > li {
     margin-bottom: 24px;
   }
-
   
 ` 
 
 export const Search = styled.div`
-  grid-area: search;
+  grid-area: search; // definindo a area ocupada na distribuição do grid
   padding: 64px 64px 0;
   
 ` 
 
 export const Content = styled.div`
-  grid-area: content;
+  grid-area: content; // definindo a area ocupada na distribuição do grid
   padding: 0 64px;
   overflow-y: auto;  
 `
 
 export const NewNote = styled(Link)`
-  grid-area: newnote;
+  grid-area: newnote; // definindo a area ocupada na distribuição do grid
 
   background-color: ${({ theme }) => theme.COLORS.ORANGE};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_900};

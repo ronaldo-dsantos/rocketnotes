@@ -1,8 +1,8 @@
-import styled from "styled-components"; // Importando o Styled Components
+import styled from "styled-components"; 
 import { Link } from "react-router-dom"
 
-export const Container = styled.header` // Exportando o Container
-  grid-area: header;
+export const Container = styled.header` 
+  grid-area: header; // Informando qual área do grid nosso componente deve ocupar
 
   height: 105px;
   width: 100%;
@@ -18,11 +18,11 @@ export const Container = styled.header` // Exportando o Container
   padding: 0 80px;
 `
 
-export const Profile = styled(Link)` // Exportando o Profile
+export const Profile = styled(Link)` 
   display: flex;
   align-items: center;
 
-  > img { // > img para garantir que estamos setando apenas a imagem que está dentro de Profile
+  > img { 
     width: 56px;
     height: 56px;
     border-radius: 50%;
