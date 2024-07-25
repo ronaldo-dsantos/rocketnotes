@@ -1,10 +1,12 @@
 import { RiShutDownLine } from 'react-icons/ri'
 import { useAuth } from '../../hooks/auth';
 
-import { Container, Profile, Logout } from "./styles"; // Importando o arquivo css
+import { Container, Profile, Logout } from "./styles"; 
 import { api } from '../../services/api';
 
-export function Header(){ // Exportando o Header
+import avatarPlaceholder from "../../assets/avatar_placeholder.svg"
+
+export function Header(){ 
   const { signOut, user } = useAuth()
 
   const avatarUrl = user.avatar ? `${api.defaults.baseURL}/files/${user.avatar}` : avatarPlaceholder
