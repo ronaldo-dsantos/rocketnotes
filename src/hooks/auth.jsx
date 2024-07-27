@@ -46,13 +46,13 @@ function AuthProvider({ children }) {
         user.avatar = response.data.avatar
       }
 
-      const { password, old_password, ...userData } = user
+      await api.put("/users", user)  
 
-      await api.put("/users", userData)  
+      const { password, old_password, ...userData } = user
       
       localStorage.setItem("@rocketnotes:user", JSON.stringify(userData))
       
-      setData({ user: userData, token: data.token})
+      setData({ user, token: data.token})
       alert("Perfil atualizado!")
       
     } catch (error) {
