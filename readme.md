@@ -15,8 +15,7 @@ Rocketnotes foi criado para ajudar usuários a organizar e acessar seus links de
 
 ## Pré-requisitos
 
-Visual Studio Code
-Node.js
+- Certifique-se de ter o [Node.js](https://nodejs.org/) e o [Visual Studio Code](https://code.visualstudio.com/download) instalados em seu sistema.
 
 ## Instalação
 
