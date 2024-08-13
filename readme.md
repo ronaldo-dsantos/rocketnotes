@@ -10,7 +10,7 @@ Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar 
 
 ## Sobre
 
-Diferente dos favoritos do navegador, Rocktnotes permite adicionar uma nota relacionada ao link para que você possa descrever o porque aquele link é importante e tags sobre o assunto, facilitando a localização dos seus links de acordo com o tema pesquidado.
+Diferente da função favoritos do navegador, Rocktnotes permite adicionar uma nota relacionada ao link para que você possa descrever o porque aquele link é importante e tags sobre o assunto, facilitando a localização dos seus links de acordo com o tema pesquidado.
 
 ## Instalação
 
