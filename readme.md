@@ -17,8 +17,7 @@ Rocketnotes permite o usuário adicionar uma nota relacionada ao link armazenado
 
 ## Pré-requisitos
 
-Visual Studio Code
-Node.js
+- Certifique-se de ter o [Node.js](https://nodejs.org/) e o [Visual Studio Code](https://code.visualstudio.com/download) instalados em seu sistema.
 
 ## Instalação
 
@@ -45,6 +44,7 @@ npm run dev
 
 ## Contato
 
-https://www.linkedin.com/in/ronaldo-domingues/
+- Email: ronaldo.dsantos@hotmail.com
+- Linkedin: https://www.linkedin.com/in/ronaldo-domingues/
 
 
