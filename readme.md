@@ -1,6 +1,6 @@
 # Rocketnotes
 
-Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar notas e tags para cada link armazenado. 
+Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar notas e tags para cada link armazenado.
 
 ## Índice
 
@@ -11,9 +11,7 @@ Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar 
 
 ## Sobre
 
-Rocketnotes foi criado para ajudar usuários a organizar e acessar seus links de forma eficiente, superando as limitações dos favoritos tradicionais dos navegadores.
-
-Rocketnotes permite o usuário adicionar uma nota relacionada ao link armazenado e tags relacionadas ao link, facilitando a localização dos seus links de acordo com o assunto pesquisado.
+Rocketnotes foi criado para ajudar usuários a organizar e acessar seus links de forma eficiente, superando as limitações dos favoritos tradicionais dos navegadores. Ele permite que os usuários adicionem notas e tags aos links armazenados, facilitando a localização dos links de acordo com o assunto pesquisado.
 
 ## Pré-requisitos
 
@@ -21,7 +19,7 @@ Rocketnotes permite o usuário adicionar uma nota relacionada ao link armazenado
 
 ## Instalação
 
-1. Abra o terminal e navegue até o diretório onde deseja clonar o projeto;
+1. Abra o terminal e navegue até o diretório onde deseja clonar o projeto:
 ```bash 
 cd C:\exemplo
 ```
@@ -29,7 +27,7 @@ cd C:\exemplo
 ```bash
 git clone https://github.com/ronaldo-dsantos/rocketnotes.git
 ```
-3. Entre no diretório do projeto
+3. Entre no diretório do projeto:
 ```bash
 cd rocketnotes
 ```
@@ -46,5 +44,7 @@ npm run dev
 
 - Email: ronaldo.dsantos@hotmail.com
 - Linkedin: https://www.linkedin.com/in/ronaldo-domingues/
+
+
 
 
