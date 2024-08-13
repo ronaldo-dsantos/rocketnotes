@@ -14,8 +14,6 @@ Diferente da função favoritos do navegador, Rocktnotes permite adicionar uma n
 
 ## Instalação
 
-Explique como instalar e configurar seu projeto. Inclua os passos necessários, desde a clonagem do repositório até a instalação das dependências e quaisquer outras configurações necessárias.
-
 - Abra o terminal do seu pc e escolha uma pasta segura para baixar o projeto (ex: cd C:\dev);
 - Baixe o clone do projeto através do comando git clone abaixo;
 - Navegue até a pasta digitando no terminal cd e o nome da pasta;
