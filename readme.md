@@ -32,5 +32,5 @@ npm run dev
 ## Contato
 
 https://www.linkedin.com/in/ronaldo-domingues/
-https://github.com/ronaldo-dsantos
+
 
