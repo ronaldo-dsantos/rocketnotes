@@ -11,7 +11,14 @@ Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar 
 
 ## Sobre
 
-Diferente da função favoritos do navegador, Rocktnotes permite adicionar uma nota relacionada ao link armazenado, para que você possa adicionar um breve resumo sobre aquele link e tags relacionadas ao assunto do link, facilitando a localização dos seus links de acordo com o assunto pesquisado.
+Rocketnotes foi criado para ajudar usuários a organizar e acessar seus links de forma eficiente, superando as limitações dos favoritos tradicionais dos navegadores.
+
+Rocketnotes permite o usuário adicionar uma nota relacionada ao link armazenado e tags relacionadas ao link, facilitando a localização dos seus links de acordo com o assunto pesquisado.
+
+## Pré-requisitos
+
+Visual Studio Code
+Node.js
 
 ## Instalação
 
@@ -38,6 +45,7 @@ npm run dev
 
 ## Contato
 
-https://www.linkedin.com/in/ronaldo-domingues/
+- Email: ronaldo.dsantos@hotmail.com
+- Linkedin: https://www.linkedin.com/in/ronaldo-domingues/
 
 
