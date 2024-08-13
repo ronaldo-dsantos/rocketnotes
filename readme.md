@@ -1,6 +1,6 @@
 # Rocketnotes
 
-Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar notas e tags para cada link. 
+Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar notas e tags para cada link armazenado. 
 
 ## Índice
 
