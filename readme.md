@@ -6,6 +6,7 @@ Rocketnotes é um sistema web para armazenar links úteis, permitindo adicionar 
 
 - [Sobre](#sobre)
 - [Instalação](#instalação)
+- [Uso](#uso)
 - [Contato](#contato)
 
 ## Sobre
@@ -20,10 +21,16 @@ Diferente da função favoritos do navegador, Rocktnotes permite adicionar uma n
 - No terminal digite npm instal para instalar todos os pacotes necessários para rodar a aplicação;
 - No terminal digite npm run dev para rodar a aplicação.
 
-
 ```bash
 
 git clone https://github.com/ronaldo-dsantos/rocketnotes.git
 cd rocketnotes
 npm install
 npm run dev
+```
+
+## Contato
+
+https://www.linkedin.com/in/ronaldo-domingues/
+https://github.com/ronaldo-dsantos
+
