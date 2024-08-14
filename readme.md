@@ -16,10 +16,12 @@ Rocketnotes foi criado para ajudar usuários a organizar e acessar seus links de
 
 ## Tecnologias
 
+- HTML
+- CSS
 - JavaScript
-- Node.js
-- Express
-- SQLite
+- React.js
+- Vite
+- Styled-components
 
 ## Pré-requisitos
 
