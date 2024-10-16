@@ -2,6 +2,7 @@ import { RiShutDownLine } from 'react-icons/ri'
 import { useAuth } from '../../hooks/auth';
 import { useNavigate } from 'react-router-dom';
 
+
 import { Container, Profile, Logout } from "./styles"; 
 import { api } from '../../services/api';
 
